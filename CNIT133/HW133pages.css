@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@100;200;300&display=swap");
+
+body {
+  background-color: #2c6ca8;
+}
+h1,
+h2 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  font-family: "Work Sans", sans-serif;
+}
+
+section {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+table {
+  position: fixed;
+  left: 43%;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+}
+
+.button {
+  background-color: #2e3133;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav {
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(223, 223, 223);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: rgb(88, 88, 88);
+  color: black;
+}
