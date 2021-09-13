@@ -8,7 +8,7 @@ function equation(){
     n5 = parseInt(document.forms["table1"].elements["n5"].value);
     
     if (isNaN(n1) || isNaN(n2) || isNaN(n3) || isNaN(n4) || isNaN(n5)){
-        document.getElementById("fade").style.display = "none";
+
         document.getElementById("totals").innerHTML = "<span>Please enter an integer</span>";
     } 
     else{
